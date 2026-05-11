@@ -1,0 +1,32 @@
+# LLM Inference Benchmark - Dependencies
+# Core ML frameworks
+torch>=2.1.0
+transformers>=4.38.0
+accelerate>=0.27.0
+bitsandbytes>=0.42.0  # For 8-bit and 4-bit quantization
+
+# vLLM (requires CUDA GPU)
+# vllm>=0.3.0
+
+# Data & analysis
+pandas>=2.0.0
+numpy>=1.24.0
+plotly>=5.17.0
+matplotlib>=3.7.0
+scipy>=1.11.0
+
+# MLflow experiment tracking
+mlflow>=2.10.0
+
+# Config & utilities
+pyyaml>=6.0
+tqdm>=4.66.0
+argparse
+
+# Metrics & monitoring
+psutil>=5.9.0
+gputil>=1.4.0
+
+# Notebook support
+jupyter>=1.0.0
+ipywidgets>=8.0.0
